@@ -5,24 +5,27 @@ package NewtonsMethodScala
  */
 object NewtonMethodSquareRoot extends App {
 
-  //Recursive functions need explicit return type in Scala
-  def rootIter(estimate: Double, x: Double): Double = {
-    if (convergeTest(estimate, x)) estimate
-    else rootIter(improveEstimate(estimate, x), x) //improve estimate via Newton method
-  }
+  def newtonSqrt(x: Double) = {
 
-  def convergeTest(estimate: Double, x: Double): Boolean = {
-    math.abs(estimate * estimate - x) < 0.01
-  }
+    //Recursive functions need explicit return type in Scala
+    def rootIter(estimate: Double, x: Double): Double = {
+      if (convergeTest(estimate, x)) estimate
+      else rootIter(improveEstimate(estimate, x), x) //improve estimate via Newton method
+    }
 
-  //Newton update
-  def improveEstimate(estimate: Double, x: Double): Double = {
-    (estimate + x / estimate) / 2
-  }
+    def convergeTest(estimate: Double, x: Double): Boolean = {
+      math.abs(estimate * estimate - x) / x < 0.01
+    }
 
-  def sqrt(x: Double) = rootIter(1.0, x)
+    //Newton update
+    def improveEstimate(estimate: Double, x: Double): Double = {
+      (estimate + x / estimate) / 2
+    }
+
+    rootIter(1.0, x)
+  }
 
   //Run a test
-  println(sqrt(64))
+  println(newtonSqrt(64))
 
 }
