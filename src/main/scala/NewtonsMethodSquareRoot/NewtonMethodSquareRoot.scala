@@ -1,4 +1,4 @@
-package NewtonsMethodScala
+package NewtonsMethodSquareRoot
 
 /**
  * Created by alex on 19/07/14.
