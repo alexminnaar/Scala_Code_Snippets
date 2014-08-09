@@ -8,15 +8,15 @@ import akka.actor.Actor
  */
 
 //Actor that actually implements the counting
-class CounterActor extends Actor{
+class CounterActor extends Actor {
 
   //If incr message is received, increment state
   //If get message is received, send sender the current state
-  def counter(n:Int):Receive={
-    case "incr" => context.become(counter(n+1))
+  def counter(n: Int): Receive = {
+    case "incr" => context.become(counter(n + 1))
     case "get" => sender ! n
   }
 
-  def receive=counter(0)
+  def receive = counter(0)
 
 }
