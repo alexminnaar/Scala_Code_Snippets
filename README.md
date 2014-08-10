@@ -11,4 +11,4 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 | ListSumMax  |  Two recusive functions that find the max and sum of a list, repectively. |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
 | BankAccount | Implements asynchronous bank account with Akka actors.  Supports withdrawals, deposits, and wire transfers between two accounts.
-| LinkChecker | Implements an asynchronous link checker for a specified URL using Akka actors |
+| LinkChecker | Implements an asynchronous link checker for a specified URL using Akka actors. |
