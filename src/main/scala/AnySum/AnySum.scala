@@ -1,4 +1,4 @@
-package FixedPoints
+package AnySum
 
 /**
  * Created by alex on 14/08/14.
