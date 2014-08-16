@@ -10,6 +10,8 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 | TailRecursiveFactorial | Implementation of factorial function using tail recusion to keep stack space constant.  |
 | ListSumMax  |  Two recusive functions that find the max and sum of a list, repectively. |
 | AnySum | Tail Recursive function that sums the input function over the input interval |
+| AnyProductFactorial | General product function, also the factorial function written in terms of it |
+| SumOrProduct | Very general function that applies a function over the specified interval and combines the subsequent values in a way defined by the combine function |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
 | BankAccount | Implements asynchronous bank account with Akka actors.  Supports withdrawals, deposits, and wire transfers between two accounts.
 | LinkChecker | Implements an asynchronous link checker for a specified URL using Akka actors. |
