@@ -13,6 +13,7 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 | AnyProductFactorial | General product function, also the factorial function written in terms of it |
 | SumOrProduct | Very general function that applies a function over the specified interval and combines the subsequent values in a way defined by the combine function |
 | FindFixedPoints| Recursively find fixed points of an input function with an initial guess |
+| Rationals | A class that implements the properties of rational numbers |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
 | BankAccount | Implements asynchronous bank account with Akka actors.  Supports withdrawals, deposits, and wire transfers between two accounts.
 | LinkChecker | Implements an asynchronous link checker for a specified URL using Akka actors. |
