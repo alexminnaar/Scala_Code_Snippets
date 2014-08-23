@@ -17,4 +17,6 @@ object nth extends App {
   println(nth(2, list))
 
   println(nth(-1, list))
+
+  println(List(1, 2))
 }
