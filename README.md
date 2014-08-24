@@ -16,6 +16,7 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 | Rationals | A class that implements the properties of rational numbers |
 | IntegerSets | Binary tree implementation of Sets of integers |
 | ConsList | Building a cons list with generics and subtyping |
+| NaturalNumbers | Implementation of some of the properties of natural numbers |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
 | BankAccount | Implements asynchronous bank account with Akka actors.  Supports withdrawals, deposits, and wire transfers between two accounts.
 | LinkChecker | Implements an asynchronous link checker for a specified URL using Akka actors. |
