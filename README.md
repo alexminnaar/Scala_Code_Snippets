@@ -19,6 +19,7 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 | NaturalNumbers | Implementation of some of the properties of natural numbers |
 | Expr | Expression example using pattern matching |
 | removeAt | Removes specified element from list |
+|QueueFromStacks| Creates a queue (with enqueue and dequeue functionality) using two stacks|
 | MergeSort | Merge sort algorithm using pattern matching on tuples |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
 | BankAccount | Implements asynchronous bank account with Akka actors.  Supports withdrawals, deposits, and wire transfers between two accounts.
