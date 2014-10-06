@@ -21,7 +21,7 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 | removeAt | Removes specified element from list |
 |QueueFromStacks| Creates a queue (with enqueue and dequeue functionality) using two stacks|
 |TwoSum| The 2-sum problem solved with sorting and another version solved with a hashmap|
-|Binary Search|Simple Binary Search|
+|BinarySearch|Simple Binary Search|
 |BFS|Bread First Search in the context of determining whether there is a path between two nodes in a graph|
 | MergeSort | Merge sort algorithm using pattern matching on tuples |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
