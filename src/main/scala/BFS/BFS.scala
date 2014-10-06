@@ -14,7 +14,7 @@ object BFS extends App {
 
   def isConnected(g: Graph, n1: Node, n2: Node): Boolean = {
 
-    var unVisited: Queue[Node] = new Queue[Node]()
+    var unVisited = Queue[Node]()
 
     //start at n1
     unVisited.enqueue(n1)
