@@ -14,10 +14,10 @@ object Histogram extends App {
 
     var binCounts: HashMap[Int, Int] = HashMap.empty
 
-    val normData = zeroNormalized(data)
+    //val normData = zeroNormalized(data)
 
-    for (el <- normData) {
-      val bin = (el / binSize).toInt
+    for (el <- data) {
+      val bin = ((el - data.min) / binSize).toInt
       if (binCounts.contains(bin)) {
         binCounts += (bin -> (binCounts(bin) + 1))
 
@@ -31,12 +31,6 @@ object Histogram extends App {
     println("Histogram is :" + binCounts)
   }
 
-  def zeroNormalized(unNorm: List[Double]): List[Double] = {
-
-    val normDiff = -unNorm.min
-
-    unNorm.map(x => x + normDiff)
-  }
 
   val dataPoints = List(2.8, 3.0, 4.2, 5.4, 7.9)
   val numBins = 3
