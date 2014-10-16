@@ -23,6 +23,7 @@ Just a collection of Scala code snippets that I have accumulated over various pr
 |TwoSum| The 2-sum problem solved with sorting and another version solved with a hashmap|
 |BinarySearch|Simple Binary Search|
 |Histogram | Builds a simple histogram using a mutable hashmap |
+|ListFunctions| Recursive functions on lists using pattern matching |
 |BFS|Bread First Search in the context of determining whether there is a path between two nodes in a graph|
 | MergeSort | Merge sort algorithm using pattern matching on tuples |
 | CounterActor | Asynchronous communication between two Akka actors maintaining a count state. |
